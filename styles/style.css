@@ -1,0 +1,86 @@
+body {
+  all: unset;
+}
+
+
+.whackamole .board {
+  margin: 0 auto;
+  display: table;
+}
+
+.whackamole .cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.whackamole button.active {
+  color: green;
+}
+
+.whackamole .cell.active {
+  background-color: rgb(0, 255, 0);
+}
+
+.whackamole .cell.player {
+  background-color: blue;
+}
+
+.whackamole .cell.ai {
+  background-color: red;
+}
+
+.whackamole .score-boards {
+  text-align: center;
+}
+
+.whackamole .score-boards .winner-message {
+  color: rgb(15, 126, 0);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.whackamole .score-boards .player-points {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.whackamole .score-boards .ai-points {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.whackamole .controls {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.whackamole .controls .difficulty-btn {
+  margin-right: 10px;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: 700;
+}
+
+.whackamole .controls .difficulty-btn.active {
+  outline: none;
+  color: blue;
+  background-color: rgb(110, 147, 216);
+}
+
+.whackamole .controls .new-game-btn {
+  margin-right: 10px;
+  background-color: rgb(255, 102, 0);
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: 700;
+}
+
